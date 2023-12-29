@@ -1,0 +1,7 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Add additional styling for each component if needed */

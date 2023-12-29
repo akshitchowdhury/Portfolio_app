@@ -45,6 +45,9 @@
   .icon:hover:nth-child(4) {
     color: #f39c12; /* Change color to a unique color for React */
   }
+  .icon:hover:nth-child(5) {
+    color: pink; /* Change color to a unique color for React */
+  }
   
   /* ... other styles ... */
   
@@ -129,7 +132,7 @@
   
   .icon.spin {
     animation: spin 2s linear infinite;
-    color: #e74c3c; /* Unique color for Node.js */
+    color: goldenrod; 
   }
   
   @keyframes spin {

@@ -1,0 +1,18 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh; /* Make the content take the full height of the viewport */
+}
+
+.logo-container {
+  margin-top: 20vh; /* Adjust the top margin for spacing */
+}
+
+.logo-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}

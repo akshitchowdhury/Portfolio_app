@@ -1,0 +1,43 @@
+/* Contact.css */
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contact-icon {
+    margin: 0 10px;
+    color: #0077b5; /* LinkedIn color */
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  .contact-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .contact-icon:hover:nth-child(1) {
+    color: #00a0dc; /* Unique color for LinkedIn on hover */
+  }
+  
+  .contact-icon:hover:nth-child(2) {
+    color: #ea4335; /* Unique color for Email on hover */
+  }
+  
+  .contact-icon:hover:nth-child(3) {
+    color: #171515; /* Unique color for GitHub on hover */
+  }
+    
+
+  /* MapLeaflet.css */
+
+.custom-map-container {
+    height: 80vh;
+    width: 50%;
+    margin: 50px auto; /* Center the map block */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
