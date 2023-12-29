@@ -26,9 +26,65 @@ body {
 .nav-icon {
   font-size: 24px;
   text-align: center;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-icon:hover {
+  color: yellow; /* Change color to yellow on hover */
 }
 
 .main-content {
   flex: 1;
   padding: 20px;
 }
+
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.welcome-text {
+  color: #333; /* Text color */
+  font-size: 32px; /* Font size */
+  margin-bottom: 20px; /* Spacing below the text */
+  text-align: center; /* Center the text */
+  font-weight: bold; /* Make the text bold */
+}
+
+
+
+/* ... existing styles ... */
+
+.skills-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Add margin to push content down */
+}
+
+.skills-heading {
+  color: #333; /* Text color */
+  font-size: 32px; /* Font size */
+  margin-bottom: 20px; /* Spacing below the text */
+  text-align: center; /* Center the text */
+  font-weight: bold; /* Make the text bold */
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin: 0 20px; /* Adjust spacing between icons */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  transform: rotate(360deg);
+  color: red; /* Change color to red on hover */
+}
+
+/* ... other styles ... */
