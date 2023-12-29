@@ -1,0 +1,143 @@
+
+
+.skills-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Add margin to push content down */
+  }
+  
+  .skills-heading {
+    color: #333; /* Text color */
+    font-size: 32px; /* Font size */
+    margin-bottom: 20px; /* Spacing below the text */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    margin: 0 20px; /* Adjust spacing between icons */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: rotate(360deg);
+  }
+  
+  .icon:hover:nth-child(1) {
+    color: #3498db; /* Change color to a unique color for HTML5 */
+  }
+  
+  .icon:hover:nth-child(2) {
+    color: #e74c3c; /* Change color to a unique color for CSS3 */
+  }
+  
+  .icon:hover:nth-child(3) {
+    color: #2ecc71; /* Change color to a unique color for JavaScript */
+  }
+  
+  .icon:hover:nth-child(4) {
+    color: #f39c12; /* Change color to a unique color for React */
+  }
+  
+  /* ... other styles ... */
+  
+  /* ... other styles ... */
+  
+  
+  .projects-heading {
+    color: #333;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* ... existing styles ... */
+  
+  .project-link:hover {
+    transform: scale(1.2);
+  }
+  
+  .project-link:hover .fa-cloud {
+    color: #3498db; /* Change color to a unique color for Weather App */
+  }
+  
+  .project-link:hover .fa-music {
+    color: #e74c3c; /* Change color to a unique color for Music App */
+  }
+  
+  .project-link:hover .fa-film {
+    color: #2ecc71; /* Change color to a unique color for Movies Website */
+  }
+  
+  .project-link:hover .fa-comments {
+    color: #f39c12; /* Change color to a unique color for Chat App */
+  }
+  
+  /* ... other styles ... */
+  
+  
+  .project-icon {
+    margin-bottom: 10px;
+  }
+  
+  .project-name {
+    display: block;
+  }
+.skills-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 50px;
+    margin: 10px;
+    transition: transform 0.5s ease, color 0.5s ease; /* Add transition for spin and color change */
+  }
+  
+  .icon:hover {
+    transform: rotate(360deg);
+  }
+  
+  .icon.spin {
+    animation: spin 2s linear infinite;
+    color: #e74c3c; /* Unique color for Node.js */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

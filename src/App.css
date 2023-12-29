@@ -2,47 +2,81 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
-  height: 100vh; /* Set body height to 100% of viewport height */
+  background-color: #191414; /* Spotify background color */
+  height: 100vh;
+  color: white;
+  transition: background-color 0.3s ease; /* Add transition for background color change */
 }
 
 .container {
   display: flex;
-  height: 100%; /* Set container height to 100% of viewport height */
+  height: 100%;
 }
 
+/* ... existing styles ... */
+                                /* ------------Skills Styles---------------------- */
+
 .sidebar {
-  width: 80px;
-  background-color: #333;
+  width: 60px;
+  background-color: #1DB954;
   color: white;
   padding: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around; /* Ensure icons are spaced evenly */
-  height: 80vh; /* Set sidebar height to 80% of viewport height */
+  justify-content: space-around;
+  height: 100vh;
+  transition: width 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .nav-icon {
   font-size: 24px;
   text-align: center;
-  transition: color 0.3s ease; /* Smooth transition for color change */
+  color: white;
+  transition: color 0.3s ease;
+  margin: 100px; /* Increased margin for more space between icons */
 }
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+/* ... other styles ... */
+
 
 .nav-icon:hover {
-  color: yellow; /* Change color to yellow on hover */
+  color: yellow; /* Change color on hover */
 }
 
 .main-content {
   flex: 1;
   padding: 20px;
+  transition: margin-left 0.3s ease; /* Add transition for main content margin change */
 }
 
-
-.main-content {
-  flex: 1;
-  padding: 20px;
+/* Smooth transition when the sidebar is collapsed */
+.container.collapsed .main-content {
+  margin-left: 80px;
 }
+
+.container.collapsed .sidebar {
+  width: 60px;
+}
+
+.container.collapsed body {
+  background-color: #121212; /* Change background color when sidebar is collapsed */
+}
+
+/* ... other styles ... */
+
 
 .welcome-text {
   color: #333; /* Text color */
@@ -84,7 +118,84 @@ body {
 
 .icon:hover {
   transform: rotate(360deg);
-  color: red; /* Change color to red on hover */
+}
+
+.icon:hover:nth-child(1) {
+  color: #3498db; /* Change color to a unique color for HTML5 */
+}
+
+.icon:hover:nth-child(2) {
+  color: #e74c3c; /* Change color to a unique color for CSS3 */
+}
+
+.icon:hover:nth-child(3) {
+  color: #2ecc71; /* Change color to a unique color for JavaScript */
+}
+
+.icon:hover:nth-child(4) {
+  color: #f39c12; /* Change color to a unique color for React */
+}
+.icon:hover:nth-child(5) {
+  color: palevioletred; /* Change color to a unique color for React */
 }
 
 /* ... other styles ... */
+
+/* ... other styles ... */
+
+
+.projects-heading {
+  color: #333;
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  margin: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* ... existing styles ... */
+
+.project-link:hover {
+  transform: scale(1.2);
+}
+
+.project-link:hover .fa-cloud {
+  color: #3498db; /* Change color to a unique color for Weather App */
+}
+
+.project-link:hover .fa-music {
+  color: #e74c3c; /* Change color to a unique color for Music App */
+}
+
+.project-link:hover .fa-film {
+  color: #2ecc71; /* Change color to a unique color for Movies Website */
+}
+
+.project-link:hover .fa-comments {
+  color: #f39c12; /* Change color to a unique color for Chat App */
+}
+
+/* ... other styles ... */
+
+
+.project-icon {
+  margin-bottom: 10px;
+}
+
+.project-name {
+  display: block;
+}

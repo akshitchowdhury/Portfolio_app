@@ -18,12 +18,15 @@ const App = () => {
             <Nav className="flex-column">
               <Nav.Link as={Link} to="/" className="nav-icon" title="Home">
                 <FontAwesomeIcon icon={faHome} />
+                <br/>
               </Nav.Link>
               <Nav.Link as={Link} to="/about" className="nav-icon" title="About">
                 <FontAwesomeIcon icon={faUser} />
+                <br/>
               </Nav.Link>
               <Nav.Link as={Link} to="/skills" className="nav-icon" title="Skills">
                 <FontAwesomeIcon icon={faCode} />
+                <br/>
               </Nav.Link>
             </Nav>
           </Navbar>
