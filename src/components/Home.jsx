@@ -1,8 +1,11 @@
 // Home.js
 import React, { useEffect, useState } from 'react';
-import HomeText from './HomeText';
+
 import logoImage from './images/oni.jpg'; // Replace with the actual path to your logo image
 import './Home.css'
+import HomeText from './HomeText';
+
+
 
 const Home = () => {
   const [showText, setShowText] = useState(false);
@@ -11,7 +14,7 @@ const Home = () => {
     // Trigger the text to appear after a delay
     const timeout = setTimeout(() => {
       setShowText(true);
-    }, 500); // Adjust the delay as needed
+    }, 300); // Adjust the delay as needed
 
     return () => clearTimeout(timeout);
   }, []);
@@ -19,7 +22,10 @@ const Home = () => {
   return (
     <div className="main-content">
       <div className={`home-container ${showText ? 'show-text' : ''}`}>
-        <HomeText />
+        {/* <HomeText /> */}
+        
+    <HomeText/>
+        
         <div className="image-container">
           <img src={logoImage} alt="My Logo" className="logo-image" />
         </div>
