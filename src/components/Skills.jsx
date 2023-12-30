@@ -50,15 +50,7 @@ const Skills = () => {
 
   return (
     <div className="main-content skills-page">
-      <h2 className="skills-heading">My Skills</h2>
-      <div className="skills-icons">
-        <FontAwesomeIcon icon={faHtml5} size="5x" className={`icon ${chatAppHovered|| musicAppHovered || weatherAppHovered || movieAppHovered? 'spin' : ''}`} />
-        <FontAwesomeIcon icon={faCss3} size="5x" className={`icon ${chatAppHovered||musicAppHovered || weatherAppHovered|| movieAppHovered ? 'spin' : ''}`} />
-        <FontAwesomeIcon icon={faJs} size="5x" className={`icon ${chatAppHovered||musicAppHovered || weatherAppHovered || movieAppHovered? 'spin' : ''}`} />
-        <FontAwesomeIcon icon={faReact} size="5x" className={`icon ${movieAppHovered ? 'spin' : ''}`} />
-        <FontAwesomeIcon icon={faNode} size="5x" className={`icon ${chatAppHovered||weatherAppHovered || movieAppHovered? 'spin' : ''}`} />
-      </div>
-
+      
       <h2 className="projects-heading">My Projects</h2>
       <div className="projects">
         <div
@@ -97,6 +89,16 @@ const Skills = () => {
           <span className="project-name">Chat App</span>
         </div>
       </div>
+
+      <h2 className="skills-heading">Skill Set</h2>
+      <div className="skills-icons">
+        <FontAwesomeIcon icon={faHtml5} size="5x" className={`icon ${chatAppHovered|| musicAppHovered || weatherAppHovered || movieAppHovered? 'spin' : ''}`} />
+        <FontAwesomeIcon icon={faCss3} size="5x" className={`icon ${chatAppHovered||musicAppHovered || weatherAppHovered|| movieAppHovered ? 'spin' : ''}`} />
+        <FontAwesomeIcon icon={faJs} size="5x" className={`icon ${chatAppHovered||musicAppHovered || weatherAppHovered || movieAppHovered? 'spin' : ''}`} />
+        <FontAwesomeIcon icon={faReact} size="5x" className={`icon ${movieAppHovered ? 'spin' : ''}`} />
+        <FontAwesomeIcon icon={faNode} size="5x" className={`icon ${chatAppHovered||weatherAppHovered || movieAppHovered? 'spin' : ''}`} />
+      </div>
+
     </div>
   );
 };

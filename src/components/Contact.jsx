@@ -12,13 +12,13 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className="contact-icons">
         <Link to="https://www.linkedin.com/in/pratikshit-chowdhury-8a3411162" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} size="3x" className="contact-icon" />
+          <FontAwesomeIcon icon={faLinkedin} size="3x" className="contact-icon" id="linkedin"/>
         </Link>
         <Link to="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faEnvelope} size="3x" className="contact-icon" />
+          <FontAwesomeIcon icon={faEnvelope} size="3x" className="contact-icon" id="email"/>
         </Link>
         <Link to="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} size="3x" className="contact-icon" />
+          <FontAwesomeIcon icon={faGithub} size="3x" className="contact-icon" id="github"/>
         </Link>
       </div>
       <MapLeaflet />

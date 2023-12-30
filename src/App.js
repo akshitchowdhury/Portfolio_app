@@ -18,18 +18,33 @@ const App = () => {
         <div className="sidebar">
           <Navbar bg="dark" variant="dark">
             <Nav className="flex-column">
-              <Nav.Link as={Link} to="/" className="nav-icon" title="Home">
+              <Nav.Link as={Link} to="/home" className="nav-icon" title="Home">
                 <FontAwesomeIcon icon={faHome} />
-                <br/>
+                
               </Nav.Link>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               <Nav.Link as={Link} to="/about" className="nav-icon" title="About">
                 <FontAwesomeIcon icon={faUser} />
-                <br/>
+                
               </Nav.Link>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               <Nav.Link as={Link} to="/skills" className="nav-icon" title="Skills">
                 <FontAwesomeIcon icon={faCode} />
                 
               </Nav.Link>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
               <Nav.Link as={Link} to="/contact" className="nav-icon" title="Contact">
                 <FontAwesomeIcon icon={faAddressBook} />
                 
@@ -41,6 +56,7 @@ const App = () => {
 
         <div className="main-content">
           <RouteSwitch>
+          <Routes path="/home" element={<Home />} />
             <Routes path="/about" element={<About />} />
             <Routes path="/skills" element={<Skills />} />
             <Routes path="/" element={<Home />} />

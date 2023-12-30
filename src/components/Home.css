@@ -1,13 +1,9 @@
-.main-content {
+/* Home.css */
+.home-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-start;
-  height: 100vh; /* Make the content take the full height of the viewport */
-}
-
-.logo-container {
-  margin-top: 20vh; /* Adjust the top margin for spacing */
+  height: 100%;
 }
 
 .logo-image {
@@ -15,4 +11,7 @@
   width: 150px;
   height: 150px;
   object-fit: cover;
+  margin: 20px;
 }
+
+/* Add more styles as needed */

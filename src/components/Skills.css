@@ -22,7 +22,7 @@
   }
   
   .icon {
-    margin: 0 20px; /* Adjust spacing between icons */
+    margin: 0 60px; /* Adjust spacing between icons */
     transition: transform 0.3s ease, color 0.3s ease;
   }
   

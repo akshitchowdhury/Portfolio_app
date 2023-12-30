@@ -9,10 +9,23 @@
   
   .contact-icon {
     margin: 0 10px;
-    color: #0077b5; /* LinkedIn color */
+     /* LinkedIn color */
     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
   }
   
+  #linkedin{
+    color: purple
+    
+  }
+
+
+  #email{
+    color : red
+  }
+
+  #github{
+    color: yellow
+  }
   .contact-icon:hover {
     transform: scale(1.2);
   }
