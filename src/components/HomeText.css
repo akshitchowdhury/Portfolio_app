@@ -3,7 +3,7 @@
     /* opacity: 0; */
     transition: opacity 1s ease-in-out;
     font-family: 'Arial', sans-serif;
-    color: #333; /* Text color */
+    color: goldenrod; /* Text color */
   }
   
   .home-text.show {

@@ -1,7 +1,7 @@
 // Home.js
 import React, { useEffect, useState } from 'react';
 
-import logoImage from './images/oni.jpg'; // Replace with the actual path to your logo image
+import logoImage from './images/oni_profile.avif'; // Replace with the actual path to your logo image
 import './Home.css'
 import HomeText from './HomeText';
 

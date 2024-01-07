@@ -5,7 +5,18 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <p>
-      Greetings! I'm a passionate web developer well-versed in HTML, CSS, JavaScript, React, and Node, dedicated to crafting innovative web applications. Beyond the screen, I immerse myself in the realms of science fiction books, groove to diverse musical tunes, and appreciate the discipline of combat sports. With a sharp intellect and a love for analysis, I thrive on unraveling complexities, be it in code or the intricacies of a captivating story. Join me in the intersection of technology, creativity, and endless possibilities!
+      Greetings Folks!<br></br>
+      Meet me...an enthusiastic and forward-thinking Frontend Developer embarking on an exciting journey in the tech realm. My expertise spans HTML, CSS, React, Java, and Spring Boot, with a solid grasp of AWS. I thrive on unraveling complex coding challenges, weaving innovation into every line of code.
+
+Driven by a relentless passion for creating seamless user experiences, I am on a mission to blend creativity with technology. Beyond the screen, I find joy in the adrenaline of gaming, the discipline of combat sports, the thrill of action movies, and the fantastical world of comics.
+
+Eager to contribute my skills and bring fresh perspectives to the ever-evolving landscape of web development. Let's collaborate and make a mark in the vibrant tapestry of the developer's industry together.
+
+
+
+
+
+
         </p>
 
     </div>
